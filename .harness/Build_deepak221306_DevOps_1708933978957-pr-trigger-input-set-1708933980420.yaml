@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_deepak221306_DevOps_1708933978957-pr-trigger-input-set
+  identifier: Build_deepak221306_DevOps_1708933978957prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: javaproject
+  pipeline:
+    identifier: Build_deepak221306_DevOps_1708933978957
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
